@@ -39,7 +39,7 @@ distrobox enter -n "$DISTROBOX_NAME" -- sh -c "
     sudo dnf install -y git make gcc gnu-efi gnu-efi-devel mingw64-gcc --quiet &&
     cd \"$PROJECT_DIR\" &&
     if [ ! -d bc250-efi-core-unlock ]; then
-        git clone --quiet https://github.com/Hexxeh/bc250-efi-core-unlock.git
+        git clone --quiet https://github.com/kadu20es/bc250-efi-core-unlock
     fi &&
     cd bc250-efi-core-unlock &&
     git pull --quiet &&
