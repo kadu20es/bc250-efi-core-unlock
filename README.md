@@ -3,6 +3,7 @@
 This is a freestanding EFI application that automatically unlocks the two disabled cores on the BC-250 APU at boot time, eliminating the need to run the Python script and manually reboot the OS on every cold boot.
 
 Credit to https://github.com/rw-r-r-0644/bc250-core-unlock for originally discovering this unlock approach - this repo just turns it into a form that's easier to apply on boot automatically.
+Credit to https://github.com/Hexxeh/bc250-efi-core-unlock for providing the EFI compiler. This repo just automatize the process of compilation and instalation on Bazzite.
 
 ## How It Works
 
